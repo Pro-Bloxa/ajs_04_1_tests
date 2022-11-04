@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "lint": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pro-Bloxa/ajs_04_1_tests.git"
+    "lint": "eslint . --fix"
   },
   "jest": {
     "transform": {
@@ -18,10 +14,6 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pro-Bloxa/ajs_04_1_tests.git/issues"
-  },
-  "homepage": "https://github.com/Pro-Bloxa/ajs_04_1_tests.git#readme",
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.19.6",
